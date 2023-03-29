@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, '/public'))); //  "public" off of cu
 
 
 
-client.login("ODkzNTEzNjQ3MTM2MDQ3MTI0.GtCFzQ.SkrjMjZsa9I-Z7bd6hGnP7ChF05KhVMZU1Y8Tc");
+client.login("");
 
 let channel;
 client.on("ready", async() => [
